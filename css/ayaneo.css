@@ -1,0 +1,40 @@
+
+/* GUIDE */
+img[src="/steaminputglyphs/ps4_button_logo.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaneo-ayaspace.svg");
+    transform: scale(1.0);
+}
+
+/* Menu */
+img[src="/steaminputglyphs/ps5_button_options.svg"] {
+    content: url("/steaminputglyphs/sd_button_menu.svg");
+    transform: scale(1.125);
+}
+
+/* view */
+img[src="/steaminputglyphs/ps5_button_create.svg"] {
+    content: url("/steaminputglyphs/sd_button_view.svg");
+    transform: scale(1.125);
+}
+
+/* Back buttons */
+/*
+img[src="/steaminputglyphs/ps_lb.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/Y2.png");
+    transform: scale(0.88);
+}*/
+
+img[src="/steaminputglyphs/ps_lfn.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaneo-LC.svg");
+    transform: scale(1.2);
+}
+/*
+img[src="/steaminputglyphs/ps_rb.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/M3.png");
+    transform: scale(0.88);
+}*/
+
+img[src="/steaminputglyphs/ps_rfn.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaneo-RC.svg");
+    transform: scale(1.2);
+}

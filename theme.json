@@ -1,0 +1,55 @@
+{
+  "name":"PS5 controller icon to Handeheld",
+  "author":"honjow",
+  "version":"v1.0.0",
+  "manifest_version":1,
+  "patches":{
+      "Replace PS icon":{
+         "type":"dropdown",
+         "default":"Xbox",
+         "values":{
+            "Default":{
+            },
+            "Xbox":{
+               "css/xbox.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            },
+            "AYANEO":{
+               "css/xbox.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/ayaneo.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            },
+            "GPD":{
+               "css/xbox.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/gpd.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            },
+            "ROG Ally":{
+               "css/ally.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            }
+         }
+      }
+   },
+  "id":"4523191919193434"
+}
