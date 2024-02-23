@@ -41,6 +41,18 @@
                   "MainMenu"
                ]
             },
+            "Aokzoe/OneXPlayer":{
+               "css/xbox.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/oxp.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            },
             "ROG Ally":{
                "css/ally.css":[
                   "SP",

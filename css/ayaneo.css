@@ -1,7 +1,7 @@
 
 /* GUIDE */
 img[src="/steaminputglyphs/ps4_button_logo.svg"] {
-    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaneo-ayaspace.svg");
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaspace.svg");
     transform: scale(1.0);
 }
 
@@ -25,7 +25,7 @@ img[src="/steaminputglyphs/ps_lb.svg"] {
 }*/
 
 img[src="/steaminputglyphs/ps_lfn.svg"] {
-    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaneo-LC.svg");
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/LC.svg");
     transform: scale(1.2);
 }
 /*
@@ -35,6 +35,6 @@ img[src="/steaminputglyphs/ps_rb.svg"] {
 }*/
 
 img[src="/steaminputglyphs/ps_rfn.svg"] {
-    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/ayaneo-RC.svg");
+    content: url("/themes_custom/SBP-PS5-to-Handheld/aya-buttons/RC.svg");
     transform: scale(1.2);
 }
