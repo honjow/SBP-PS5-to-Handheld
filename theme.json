@@ -41,6 +41,23 @@
                   "MainMenu"
                ]
             },
+            "GPD Win Mini":{
+               "css/xbox.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/gpd.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/gpd_winmini.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            },
             "Aokzoe/OneXPlayer":{
                "css/xbox.css":[
                   "SP",
