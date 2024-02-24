@@ -40,3 +40,21 @@ img[src="/steaminputglyphs/ps_rfn.svg"] {
     content: url("/steaminputglyphs/sd_r4.svg");
     transform: scale(1.0);
 }
+
+/* D-Pad */
+img[src="/steaminputglyphs/ps_dpad_up.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_up.svg");
+    /* transform: scale(0.88); */
+}
+img[src="/steaminputglyphs/ps_dpad_left.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_left.svg");
+    /* transform: scale(0.88); */
+}
+img[src="/steaminputglyphs/ps_dpad_right.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_right.svg");
+    /* transform: scale(0.88); */
+}
+img[src="/steaminputglyphs/ps_dpad_down.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_down.svg");
+    /* transform: scale(0.88); */
+}
