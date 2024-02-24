@@ -30,15 +30,25 @@ fi
 
 git clone "${url}" --depth=1 "${THEME_FOLDER}/SBP-PS5-to-Handheld"
 
+PRODUCT_MATCH=false
 if [[ "$PRODUCT" =~ "ROG Ally RC71L" ]]; then
     set_default "ROG Ally"
+    PRODUCT_MATCH=true
 elif [[ "$PRODUCT" == "G1617-01" ]]; then
     # GPD Win Mini
     set_default "GPD Win Mini"
+    PRODUCT_MATCH=true
 elif [[ "$PRODUCT" == "G1618-04" ]]; then
     # GPD Win4
     set_default "GPD Win4"
-elif [[ "$VENDOR" == "AYANEO" ]]; then
+    PRODUCT_MATCH=true
+fi
+
+if [[ "$PRODUCT_MATCH" == true ]]; then
+    exit 0
+fi
+
+if [[ "$VENDOR" == "AYANEO" ]]; then
     set_default "AYANEO"
 elif [[ "$VENDOR" == "GPD" ]]; then
     set_default "GPD"
