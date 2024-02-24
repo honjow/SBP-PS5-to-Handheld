@@ -58,6 +58,23 @@
                   "MainMenu"
                ]
             },
+            "GPD Win4":{
+               "css/xbox.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/gpd.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ],
+               "css/gpd_win4.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
+            },
             "Aokzoe/OneXPlayer":{
                "css/xbox.css":[
                   "SP",

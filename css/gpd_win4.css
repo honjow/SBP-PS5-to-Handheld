@@ -1,0 +1,13 @@
+/* Controller Image */
+.controller_ps5_edge
+.controllerconfiguratorsummary_BackgroundController_rlz-U {
+    background-image: url("/themes_custom/SBP-PS5-to-Handheld/assets/Win4.svg");
+}
+
+/* GUIDE */
+img[src="/steaminputglyphs/ps4_button_logo.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/gpd-buttons/win4_menu.svg");
+    width: 48px;
+    height: auto;
+    margin: -100% 0 -100% 0;
+}
