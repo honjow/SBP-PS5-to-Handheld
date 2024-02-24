@@ -14,20 +14,21 @@ VENDOR=$(cat /sys/devices/virtual/dmi/id/sys_vendor)
 HOMEBREW_FOLDER="${HOME}/homebrew"
 THEME_FOLDER="${HOMEBREW_FOLDER}/themes"
 
+function set_default() {
+    PROFILE=$1
+    # replace `: "Xbox" to` `: "$1"
+    if [[ -f "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json" ]]; then
+        sed -i "s#: \"Xbox\"#: \"$PROFILE\"#g" "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json"
+    fi
+}
+
 url="https://github.com/honjow/SBP-PS5-to-Handheld.git"
 
 if [[ -d "${THEME_FOLDER}/SBP-PS5-to-Handheld" ]]; then
     rm -rf "${THEME_FOLDER}/SBP-PS5-to-Handheld"
-else
-    git clone "${url}" --depth=1 "${THEME_FOLDER}/SBP-PS5-to-Handheld"
 fi
 
-function set_default() {
-    PROFILE=$1
-    # replace `: "Xbox" to` `: "$1"
-    sed -i "s#: \"Xbox\"#: \"$PROFILE\"#g" "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json"
-
-}
+git clone "${url}" --depth=1 "${THEME_FOLDER}/SBP-PS5-to-Handheld"
 
 if [[ "$PRODUCT" =~ "ROG Ally RC71L" ]]; then
     set_default "ROG Ally"
