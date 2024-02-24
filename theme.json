@@ -8,8 +8,6 @@
          "type":"dropdown",
          "default":"Xbox",
          "values":{
-            "Default":{
-            },
             "Xbox":{
                "css/xbox.css":[
                   "SP",
