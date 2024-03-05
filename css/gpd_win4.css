@@ -7,9 +7,9 @@
 /* GUIDE */
 img[src="/steaminputglyphs/ps4_button_logo.svg"] {
     content: url("/themes_custom/SBP-PS5-to-Handheld/gpd-buttons/Win4-Menu.svg");
-    width: 42px;
+    width: 50px;
     height: auto;
-    margin: -80% 0 -80% 0;
+    margin: -80% 8px -80% 0;
 }
 
 /* view */
