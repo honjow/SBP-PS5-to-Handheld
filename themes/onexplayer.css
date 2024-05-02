@@ -1,0 +1,5 @@
+/* GUIDE */
+img[src="/steaminputglyphs/ps4_button_logo.svg"] {
+    content: url("/themes_custom/SBP-PS5-to-Handheld/assets/onexplayer/home.svg");
+    transform: scale(1.1);
+}
