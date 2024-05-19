@@ -34,6 +34,8 @@ fi
 
 git clone "${url}" --depth=1 "${THEME_FOLDER}/SBP-PS5-to-Handheld"
 
+AYANEO_AIR_LIST="AIR:AIR Pro:AIR Plus:AIR 1S:AIR 1S Limited"
+
 PRODUCT_MATCH=false
 if [[ "$PRODUCT" =~ "ROG Ally RC71L" ]]; then
     set_default "ROG Ally"
@@ -45,6 +47,10 @@ elif [[ "$PRODUCT" == "G1617-01" ]]; then
 elif [[ "$PRODUCT" == "G1618-04" ]]; then
     # GPD Win4
     set_default "GPD Win4"
+    PRODUCT_MATCH=true
+else if [[ ":$AYANEO_AIR_LIST:" =~ ":$PRODUCT:" ]]; then
+    # AYANEO AIR Series
+    set_default "AYANEO AIR"
     PRODUCT_MATCH=true
 fi
 

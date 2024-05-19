@@ -1,10 +1,10 @@
 {
   "name": "PS5 controller glyphs to Handeheld",
   "author": "honjow",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "manifest_version": 1,
   "patches": {
-    "Replace PS icon": {
+    "Replace PS glyphs": {
       "type": "dropdown",
       "default": "Xbox",
       "values": {
@@ -14,6 +14,11 @@
         "AYANEO": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
           "themes/ayaneo.css": ["SP", "QuickAccess", "MainMenu"]
+        },
+        "AYANEO AIR": {
+          "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
+          "themes/ayaneo.css": ["SP", "QuickAccess", "MainMenu"],
+          "themes/ayaneo_air.css": ["SP", "QuickAccess", "MainMenu"]
         },
         "GPD": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
