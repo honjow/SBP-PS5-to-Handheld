@@ -48,7 +48,7 @@ elif [[ "$PRODUCT" == "G1618-04" ]]; then
     # GPD Win4
     set_default "GPD Win4"
     PRODUCT_MATCH=true
-else if [[ ":$AYANEO_AIR_LIST:" =~ ":$PRODUCT:" ]]; then
+elif [[ ":$AYANEO_AIR_LIST:" =~ ":$PRODUCT:" ]]; then
     # AYANEO AIR Series
     set_default "AYANEO AIR"
     PRODUCT_MATCH=true
