@@ -38,18 +38,24 @@ AYANEO_AIR_LIST="AIR:AIR Pro:AIR Plus:AIR 1S:AIR 1S Limited"
 
 PRODUCT_MATCH=false
 if [[ "$PRODUCT" =~ "ROG Ally RC71L" ]]; then
+    echo "ROG Ally"
     set_default "ROG Ally"
     PRODUCT_MATCH=true
 elif [[ "$PRODUCT" == "G1617-01" ]]; then
     # GPD Win Mini
+    echo "GPD Win Mini"
     set_default "GPD Win Mini"
     PRODUCT_MATCH=true
 elif [[ "$PRODUCT" == "G1618-04" ]]; then
-    # GPD Win4
+    ehco "GPD Win 4"
     set_default "GPD Win4"
     PRODUCT_MATCH=true
+elif [[ "$PRODUCT" == "G1618-03" ]]; then
+    echo "GPD Win3"
+    set_default "GPD Win3"
+    PRODUCT_MATCH=true
 elif [[ ":$AYANEO_AIR_LIST:" =~ ":$PRODUCT:" ]]; then
-    # AYANEO AIR Series
+    echo "AYANEO AIR Series"
     set_default "AYANEO AIR"
     PRODUCT_MATCH=true
 fi
@@ -59,9 +65,12 @@ if [[ "$PRODUCT_MATCH" == true ]]; then
 fi
 
 if [[ "$VENDOR" == "AYANEO" ]]; then
+    echo "AYANEO"
     set_default "AYANEO"
 elif [[ "$VENDOR" == "GPD" ]]; then
+    echo "GPD"
     set_default "GPD"
 elif [[ "$VENDOR" == "AOKZOE" || "$VENDOR" == "ONE-NETBOOK" ]]; then
+    echo "Aokzoe/OneXPlayer"
     set_default "Aokzoe/OneXPlayer"
 fi
