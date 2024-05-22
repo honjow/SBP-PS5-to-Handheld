@@ -1,7 +1,7 @@
 {
   "name": "PS5 controller glyphs to Handeheld",
   "author": "honjow",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "manifest_version": 1,
   "patches": {
     "Replace PS glyphs": {
@@ -18,7 +18,7 @@
         "AYANEO AIR": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
           "themes/ayaneo.css": ["SP", "QuickAccess", "MainMenu"],
-          "themes/ayaneo_air.css": ["SP", "QuickAccess", "MainMenu"]
+          "themes/ayaneo-air.css": ["SP", "QuickAccess", "MainMenu"]
         },
         "GPD": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
@@ -27,12 +27,17 @@
         "GPD Win Mini": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
           "themes/gpd.css": ["SP", "QuickAccess", "MainMenu"],
-          "themes/gpd_winmini.css": ["SP", "QuickAccess", "MainMenu"]
+          "themes/gpd-winmini.css": ["SP", "QuickAccess", "MainMenu"]
+        },
+        "GPD Win3": {
+          "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
+          "themes/gpd.css": ["SP", "QuickAccess", "MainMenu"],
+          "themes/gpd-win3.css": ["SP", "QuickAccess", "MainMenu"]
         },
         "GPD Win4": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
           "themes/gpd.css": ["SP", "QuickAccess", "MainMenu"],
-          "themes/gpd_win4.css": ["SP", "QuickAccess", "MainMenu"]
+          "themes/gpd-win4.css": ["SP", "QuickAccess", "MainMenu"]
         },
         "Aokzoe/OneXPlayer": {
           "themes/xbox.css": ["SP", "QuickAccess", "MainMenu"],
