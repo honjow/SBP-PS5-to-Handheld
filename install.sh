@@ -21,8 +21,8 @@ function set_default() {
         sed -i "s#: \"Xbox\"#: \"$PROFILE\"#g" "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json"
     fi
     # replace `: false` `: true`
-    if [[ -f "${THEME_FOLDER}/SBP-PS5-to-Handheld/config.json" ]]; then
-        sed -i "s#: false#: true#g" "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json"
+    if [[ -f "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json" ]]; then
+        sed -i "s#false#true#g" "${THEME_FOLDER}/SBP-PS5-to-Handheld/config_USER.json"
     fi
 }
 
