@@ -27,6 +27,24 @@ img[src="/steaminputglyphs/ps5_button_options.svg"] {
     transform: scale(0.96);
 }
 
+/* D-Pad */
+img[src="/steaminputglyphs/shared_dpad_up.svg"],
+img[src="/steaminputglyphs/ps_dpad_up.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_up.svg");
+}
+img[src="/steaminputglyphs/shared_dpad_left.svg"],
+img[src="/steaminputglyphs/ps_dpad_left.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_left.svg");
+}
+img[src="/steaminputglyphs/shared_dpad_right.svg"],
+img[src="/steaminputglyphs/ps_dpad_right.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_right.svg");
+}
+img[src="/steaminputglyphs/shared_dpad_down.svg"],
+img[src="/steaminputglyphs/ps_dpad_down.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_down.svg");
+}
+
 /* Back buttons */
 img[src="/steaminputglyphs/ps_lfn.svg"] {
     content: url("/themes_custom/SBP-PS5-to-Handheld/assets/gpd/Win4-L4.svg");

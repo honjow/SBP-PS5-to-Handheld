@@ -1,7 +1,7 @@
 {
   "name": "PS5 controller glyphs to Handeheld",
   "author": "honjow",
-  "version": "v1.0.4",
+  "version": "v1.0.5",
   "manifest_version": 1,
   "patches": {
     "Replace PS glyphs": {
@@ -45,7 +45,8 @@
         },
         "ROG Ally": {
           "themes/rog-ally.css": ["SP", "QuickAccess", "MainMenu"]
-        }
+        },
+        "Legion Go": { "themes/legion-go.css": ["SP", "QuickAccess", "MainMenu"] }
       }
     }
   }

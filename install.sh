@@ -58,6 +58,10 @@ elif [[ ":$AYANEO_AIR_LIST:" =~ ":$PRODUCT:" ]]; then
     echo "AYANEO AIR Series"
     set_default "AYANEO AIR"
     PRODUCT_MATCH=true
+elif [[ "$PRODUCT" == "83E1" ]]; then
+    echo "Legion Go"
+    set_default "Legion Go"
+    PRODUCT_MATCH=true
 fi
 
 if [[ "$PRODUCT_MATCH" == true ]]; then

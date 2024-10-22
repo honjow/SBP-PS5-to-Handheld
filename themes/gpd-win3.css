@@ -41,6 +41,24 @@ img[src="/steaminputglyphs/ps_rfn.svg"] {
     transform: scale(1.4);
 }
 
+/* D-Pad */
+img[src="/steaminputglyphs/shared_dpad_up.svg"],
+img[src="/steaminputglyphs/ps_dpad_up.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_up.svg");
+}
+img[src="/steaminputglyphs/shared_dpad_left.svg"],
+img[src="/steaminputglyphs/ps_dpad_left.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_left.svg");
+}
+img[src="/steaminputglyphs/shared_dpad_right.svg"],
+img[src="/steaminputglyphs/ps_dpad_right.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_right.svg");
+}
+img[src="/steaminputglyphs/shared_dpad_down.svg"],
+img[src="/steaminputglyphs/ps_dpad_down.svg"] {
+    content: url("/steaminputglyphs/ps_dpad_down.svg");
+}
+
 /* Controller Settings */
 img[src="/images/steamdeck_right.png"] {
     content: url("/themes_custom/handheld-controller-glyphs/assets/gpd/win-3/Controller-right.png");
